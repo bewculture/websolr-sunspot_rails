@@ -10,9 +10,6 @@ begin
     gem.email = "kyle@kylemaxwell.com"
     gem.homepage = "http://github.com/fizx/websolr-sunspot_rails"
     gem.authors = ["Kyle Maxwell", "John Barnette", "Mat Brown", "Nick Zadrozny"]
-    gem.add_dependency "sunspot_rails", "1.1.0"
-    gem.add_dependency "json"
-    gem.add_development_dependency "rspec"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
